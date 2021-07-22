@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.WatermarkApp", "RabbiMQ.WatermarkApp\RabbitMQ.WatermarkApp.csproj", "{E206A4EE-0A00-4B5F-BC10-9014850BA829}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.ExcelApp", "RabbitMQ.ExcelApp\RabbitMQ.ExcelApp.csproj", "{7CBE4EB3-BCB1-4D7B-AFC1-C07F1F443B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{4C8884FA-F644-42B1-A1E3-4EA317D063EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCreateWorkerService", "FileCreateWorkerService\FileCreateWorkerService.csproj", "{AFCD7E35-AAF7-4813-A913-CD5BA5964330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{E206A4EE-0A00-4B5F-BC10-9014850BA829}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E206A4EE-0A00-4B5F-BC10-9014850BA829}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E206A4EE-0A00-4B5F-BC10-9014850BA829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CBE4EB3-BCB1-4D7B-AFC1-C07F1F443B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CBE4EB3-BCB1-4D7B-AFC1-C07F1F443B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CBE4EB3-BCB1-4D7B-AFC1-C07F1F443B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CBE4EB3-BCB1-4D7B-AFC1-C07F1F443B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C8884FA-F644-42B1-A1E3-4EA317D063EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C8884FA-F644-42B1-A1E3-4EA317D063EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C8884FA-F644-42B1-A1E3-4EA317D063EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C8884FA-F644-42B1-A1E3-4EA317D063EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFCD7E35-AAF7-4813-A913-CD5BA5964330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFCD7E35-AAF7-4813-A913-CD5BA5964330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFCD7E35-AAF7-4813-A913-CD5BA5964330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFCD7E35-AAF7-4813-A913-CD5BA5964330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
